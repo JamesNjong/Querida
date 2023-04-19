@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "647010067064",
+    "firebase_url": "https://ouraugust-default-rtdb.firebaseio.com",
+    "project_id": "ouraugust",
+    "storage_bucket": "ouraugust.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647010067064:android:34ef5b90aa252d8d7d438d",
+        "android_client_info": {
+          "package_name": "com.example.querida"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "647010067064-imfd9a0gn8dafu8huv1960b48str3h7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgvh86f41DUppmZJGI1CZZ1HwN4w1UtoI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "647010067064-imfd9a0gn8dafu8huv1960b48str3h7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

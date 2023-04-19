@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tableManager.TableEditFragment"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center_vertical"
+    android:padding="30dp">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:text="Edit Table Description"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/dark_secondary"/>
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:id="@+id/table_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Table Name"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/edittext_bg"/>
+
+    <EditText
+        android:id="@+id/table_owner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Table Owner"
+        android:paddingLeft="10dp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:background="@drawable/edittext_bg"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/update_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Update Table Data"
+        android:textColor="@color/orange_primary"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@drawable/button_primary"
+        />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:id="@+id/back_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Cancel"
+        android:textColor="@color/dark_secondary"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@drawable/secondary_buton"
+        />
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="1"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

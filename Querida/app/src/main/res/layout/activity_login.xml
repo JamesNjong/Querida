@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_bg"
+    android:padding="20dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="34sp"
+        android:text="Querida"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/dark_secondary"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter username"
+        android:paddingLeft="10dp"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:background="@drawable/edittext_bg"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Password"
+        android:singleLine="true"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_bg"/>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:id="@+id/invalid"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Invalid username or password."
+        android:textColor="@color/orange_primary"
+        android:fontFamily="serif-monospace"
+        />
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        />
+    <TextView
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="@color/orange_primary"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:background="@drawable/button_primary"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

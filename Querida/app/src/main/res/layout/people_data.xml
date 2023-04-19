@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="2dp"
+    app:cardElevation="10dp"
+    android:layout_marginBottom="1dp">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/people_spot"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:text="P04"
+            android:textColor="@color/dark_secondary"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textFontWeight="900"
+            android:background="@drawable/spot_bt"
+            android:textAllCaps="true"
+            />
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/people_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person Name"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textFontWeight="900"
+                android:textColor="@color/dark_secondary"
+                />
+
+            <TextView
+                android:id="@+id/people_contact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person Name"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/dark_secondary"
+                />
+            <TextView
+                android:id="@+id/people_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Person Name"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:textColor="@color/dark_secondary"
+                android:textAllCaps="true"
+                />
+
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</androidx.cardview.widget.CardView>
